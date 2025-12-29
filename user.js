@@ -1,20 +1,4 @@
 /*
- * Copyright (c) 2025 spekie
- *
- * Permission to use, copy, modify, and distribute this software for any
- * purpose with or without fee is hereby granted, provided that the above
- * copyright notice and this permission notice appear in all copies.
- *
- * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
- * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
- * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
- * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
- * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
- * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
- * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
- */
-
-/*
  * This file is a custom, private and secure user.js for Firefox.
  * A comment is provided to give a general idea of what the preferences
  * below do, to somewhat document if they are beneficial to security.
@@ -73,6 +57,8 @@ user_pref("identity.fxaccounts.enabled", false);
 user_pref("browser.preferences.moreFromMozilla", false);
 //user_pref("browser.preferences.experimental.hidden", true);
 //user_pref("browser.preferences.experimental", false);
+user_pref("media.videocontrols.picture-in-picture.video-toggle.enabled", false);
+user_pref("network.trr.mode", 5);
 
 /* Disables the Widevine digital rights management (DRM) */
 user_pref("media.gmp-widevinecdm.enabled", false);
