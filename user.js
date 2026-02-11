@@ -33,6 +33,7 @@ user_pref("browser.search.serpEventTelemetryCategorization.enabled", false);
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons", false);
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", false);
 user_pref("browser.tabs.groups.smart.userEnabled", false);
+user_pref("browser.tabs.crashReporting.sendReport", false);
 user_pref("browser.newtabpage.activity-stream.showSponsored", false);
 user_pref("browser.newtabpage.activity-stream.showSponsoredCheckboxes", false);
 user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false);
@@ -66,11 +67,10 @@ user_pref("media.gmp-widevinecdm.visible", false);
 
 /* Privacy and Security enhancements */
 user_pref("dom.security.https_only_mode", true);
-user_pref("privacy.history.custom", true);
-user_pref("browser.privatebrowsing.autostart", true);
 user_pref("browser.contentblocking.category", "strict");
 user_pref("browser.contentblocking.database.enabled", false);
-user_pref("browser.tabs.crashReporting.sendReport", false);
+//user_pref("privacy.history.custom", true);
+//user_pref("browser.privatebrowsing.autostart", true);
 
 /* Disable autofill passwords and related */
 user_pref("signon.rememberSignons", false);
@@ -114,3 +114,7 @@ user_pref("browser.safebrowsing.reportPhishURL", "");
 //user_pref("browser.safebrowsing.provider.google.reportMalwareMistakeURL", "")
 //user_pref("browser.safebrowsing.provider.google.advisoryURL", "")
 //user_pref("browser.safebrowsing.provider.google4.gethashURL", "");
+
+/* userchrome css */
+//user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
+//user_pref("browser.compactmode.show", true);
